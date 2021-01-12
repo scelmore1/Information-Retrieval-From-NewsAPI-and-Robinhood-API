@@ -1,0 +1,16 @@
+Watch YouTube video outlining the notebook: https://youtu.be/W-5WK3HDToA
+
+The directory contains all files needed to run the application.  The main
+file to run is the Final_Project_Notebook.ipynb, which is a Jupyter Notebook 
+file.  The contents of this file along with the outputs from running it are 
+contained in the PDF file also titled Final_Project_Notebook.  The other files
+contained in the directory are pointed to by that jupyter notebook, which 
+imports from the .json files contained in the directory.  The .py files 
+'Robinhood API', 'News API', 'Inverted Index Creation', and 
+'Read Cranfield Collection' all create .json files as output. This is so the
+user doesn't have to rerun some time expensive inverted index creation for each
+run of the application.  The .py file 'Final Project Functions' is called from 
+within the jupyter notebook to give some useful functions for handling both
+the test data set and my project's data set.  The test data set documents are 
+labeled with 'cran' and they are read from within the 'Read Cranfield Collection'
+python file.
